@@ -21,3 +21,22 @@ Because of the new technologies I've transitioned to using the terminal way more
 ## Current State
 
 Right now it's still very much a raw project.  Some of the basic functionality works but it needs _a lot_ of polishing.  By no means should this be considered a usable solution for interacting SQL Server.
+
+## Help Is Welcomed
+
+### Prerequisite Tools
+
+* Visual Studio 2017 Community (Profession and up is OK)
+* _(preferred)_Your workstation is a Mac
+* Docker CE
+* [microsoft/mssql-server Docker image](https://hub.docker.com/r/microsoft/mssql-server/) for a MSSQL server instance to test against.  Yes, there are other ways to have a MSSQL server, but let's be consistent.  Besides, Sql Server on Ubuntu; whooda thunkit???  That's pretty cool!
+
+### Prerequisite Skills
+  
+* A solid knowledge of C#
+* Fastidious code engineer
+  * hates compiler and linting warnings
+  * hates complicated code
+  * Loves to write comments and unit tests.
+* Must love cats.  Yes; cats.
+* A familiarity with Cassandra and more importantly cqlsh is very helpful.

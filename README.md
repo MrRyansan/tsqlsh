@@ -22,6 +22,18 @@ Because of the new technologies I've transitioned to using the terminal way more
 
 Right now it's still very much a raw project.  Some of the basic functionality works but it needs _a lot_ of polishing.  By no means should this be considered a usable solution for interacting SQL Server.
 
+## Example
+
+Here is a screenshot of sqlcmd:
+![alt text](doc/img/sqlcmd.png)
+
+Here is the same command ran in tsqlsh:
+![alt text](doc/img/tsqlsh.png))
+
+Much nicer output, don't you think?
+
+---
+
 ## Help Is Welcomed
 
 ### Prerequisite Tools

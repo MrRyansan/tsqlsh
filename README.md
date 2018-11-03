@@ -28,7 +28,7 @@ Here is a screenshot of sqlcmd:
 ![alt text](doc/img/sqlcmd.png)
 
 Here is the same command ran in tsqlsh:
-![alt text](doc/img/tsqlsh.png))
+![alt text](doc/img/tsqlsh.png)
 
 Much nicer output, don't you think?
 

@@ -23,13 +23,14 @@ namespace tsqlsh
                 var cmdtext = Console.ReadLine();
                 commandBuilder.Append(cmdtext + " ");
 
-                switch(cmdtext)
+                switch(cmdtext.ToLower())
                 {
                     case "exit":
                     case "clear":
                         return cmdtext;
+                    case "test":
+                        return "SELECT NAME, DATABASE_ID, CREATE_DATE FROM SYS.DATABASES;";
                     default:
-                        commandBuilder.Append(cmdtext + " ");
                         break;
                 }
 
@@ -42,7 +43,8 @@ namespace tsqlsh
                     Console.Write("    ... ");
                 }
             }
-            return commandBuilder.ToString().Trim();
+            var sqlcmd = commandBuilder.ToString().Trim();
+            return sqlcmd;
         }
     }
 }

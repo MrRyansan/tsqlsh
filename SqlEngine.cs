@@ -49,27 +49,30 @@ namespace tsqlsh
             var cmd = this.connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = sql;
-            var results = new ExecutionResults();
 
             if (requiresWrite() && this.isReadonly)
             {
-                results.ErrorMessage = "This session can only execute SELECT queries.  Start another session using the '-rw' flag if DDL statements are to be executed.";
-                return results;
+                return new ExecutionResults()
+                {
+                    ErrorMessage = "This session can only execute SELECT queries." + 
+                                   "  Start another session using the '-rw' flag" + 
+                                   " if DDL statements are to be executed."
+                };
             }
 
-            return sql.ToUpper().Contains("SELECT") ?
+            return sql.ToUpper().Contains("SELECT ") ?
                          this.ExecuteReader(cmd) :
                          this.ExecuteNonQuery(cmd);
 
             bool requiresWrite()
             {
                 var cmdTxt = sql.ToUpper();
-                return cmdTxt.Contains("INSERT")
-                    || cmdTxt.Contains("UPDATE")
-                    || cmdTxt.Contains("DELETE")
-                    || cmdTxt.Contains("CREATE")
-                    || cmdTxt.Contains("ALTER")
-                    || cmdTxt.Contains("DROP");
+                return cmdTxt.Contains("INSERT ")
+                    || cmdTxt.Contains("UPDATE ")
+                    || cmdTxt.Contains("DELETE ")
+                    || cmdTxt.Contains("CREATE ")
+                    || cmdTxt.Contains("ALTER ")
+                    || cmdTxt.Contains("DROP ");
             }
         }
 
@@ -80,7 +83,7 @@ namespace tsqlsh
         /// <param name="cmd">The IDbCommand that will execute the query.</param>
         internal ExecutionResults ExecuteReader(IDbCommand cmd)
         {
-            var results = new ExecutionResults();
+            var results = new ExecutionResults() { CommandText = cmd.CommandText };
 
             try
             {
@@ -103,7 +106,7 @@ namespace tsqlsh
         /// <param name="cmd">The IDbCommand that will execute the statement.</param>
         internal ExecutionResults ExecuteNonQuery(IDbCommand cmd)
         {
-            var results = new ExecutionResults();
+            var results = new ExecutionResults() { CommandText = cmd.CommandText };
 
             try
             {
@@ -124,7 +127,7 @@ namespace tsqlsh
         /// <param name="reader">Reader.</param>
         internal ExecutionResults ReadRawResults(SqlDataReader reader)
         {
-            var rawData = new ExecutionResults
+            var rawData = new ExecutionResults()
             {
                 ColumnCount = reader.FieldCount,
                 Rows = new List<IList<string>>()

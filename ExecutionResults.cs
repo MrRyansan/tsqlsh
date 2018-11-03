@@ -9,6 +9,11 @@ namespace tsqlsh
     internal class ExecutionResults
     {
         /// <summary>
+        /// Returns the sql command text that was executed.
+        /// </summary>
+        internal string CommandText { get; set; }
+
+        /// <summary>
         /// Gets or sets the number of columns returned in the resultset.
         /// </summary>
         /// <value>The column count.</value>

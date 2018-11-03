@@ -7,7 +7,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
     <StartAction>Project</StartAction>
-    <StartArguments>server=localhost database=TsqlshTest user=sa pwd=6yhnMJU&amp; -rw</StartArguments>
+    <StartArguments>server=localhost database=TsqlshTest user=sa pwd=6yhnMJU&amp; </StartArguments>
     <ExternalConsole>true</ExternalConsole>
   </PropertyGroup>
   <ItemGroup>

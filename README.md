@@ -6,6 +6,8 @@ A cqlsh-inspired cli for MSSQL on a Mac (and Linux in the future)
 
 ### Stay On Top of .Net Core
 
+_(I need to come clean: I've already started a Go version: [go-tsqlsh](https://github.com/twistingmercury/go-tsqlsh).  Why? Because after getting as far as I did with this project in just a matter of days, I've realized that the switch to .Net Core isn't a big deal. I'll most likely ignore this project for a while and focus on tsqlsh implemented in Go.)_
+
 Because I need a "practical" project to get familiar with .Net Core.  I've been using C# and .Net since its second Beta since late 2001.  I've seen the evolution of the framework in a production environment up through Framework 4.6.1.
 
 In the past two years I've started branching out and began using other languages such as Go (_I simply LOVE working with Go_) and Node.js. But I need to keep the C# skills up-to-date.  Besides, C# 7.0 and onwards has introduced features that be used to similar effect as in Go.  For example, how [tuples](https://docs.microsoft.com/en-us/dotnet/csharp/tuples) can be used to return multiple results, or how 7.0 introduced [discards](https://docs.microsoft.com/en-us/dotnet/csharp/discards).

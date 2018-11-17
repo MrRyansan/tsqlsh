@@ -1,4 +1,5 @@
-﻿using System;
+﻿#pragma warning disable IDE1006
+using System;
 
 namespace tsqlsh
 {
@@ -16,13 +17,14 @@ namespace tsqlsh
             var p = new Program(args);
         }
 
-        private SqlEngine engine;
-        private readonly CmdLineArgs settings;
+        internal ISqlEngine engine { get; set; }
+        private readonly cmdLineArgs settings;
+        internal Command cmdBuilder { get; set; }
 
         private Program(string[] args)
         {
             Console.CancelKeyPress += new ConsoleCancelEventHandler(this.CtrlCHandlerHandler);
-            this.settings = new CmdLineArgs(args);
+            this.settings = new cmdLineArgs(args);
 
             if (this.settings.ShowHelp)
             {
@@ -54,12 +56,23 @@ namespace tsqlsh
 
         private void Run()
         {
-            this.engine = new SqlEngine(this.settings.SqlConnection);
+            if (this.engine == null)
+            {
+                this.engine = new SqlEngine(this.settings.SqlConnection);
+            }
+
+            if (this.cmdBuilder == null)
+            {
+                this.cmdBuilder = new Command();
+            }
+
+            this.engine.DbChanged += (s,e) => { this.cmdBuilder.SetDbName(e); };
+
             Terminal.PrintConnectionInfo(this.settings.SqlConnection.DataSource, this.settings.SqlConnection.InitialCatalog, this.settings.SqlConnection.ApplicationIntent.ToString());
 
             while (true)
             {
-                var cmd = Command.Build();
+                var cmd = this.cmdBuilder.Build();
 
                 switch (cmd)
                 {

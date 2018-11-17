@@ -17,4 +17,7 @@
     <Folder Include="doc\" />
     <Folder Include="doc\img\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="GlobalSuppressions.cs" />
+  </ItemGroup>
 </Project>

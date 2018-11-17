@@ -8,13 +8,13 @@ namespace tsqlsh
     /// Used to parse and verify the cmd line arguments needed to connect to
     /// a database.
     /// </summary>
-    internal sealed class CmdLineArgs
+    internal sealed class cmdLineArgs
     {
         /// <summary>
         /// Default ctor.
         /// </summary>
         /// <param name="args">Arguments.</param>
-        internal CmdLineArgs(string[] args)
+        internal cmdLineArgs(string[] args)
         {
             this.Init(args);
         }

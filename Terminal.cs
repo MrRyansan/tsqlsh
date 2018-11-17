@@ -15,10 +15,10 @@ namespace tsqlsh
         /// <param name="result">Result.</param>
         internal static void Print(ExecutionResults result)
         {
-            if (!string.IsNullOrWhiteSpace(result.ErrorMessage))
+            if (!string.IsNullOrWhiteSpace(result.ErrorMsg))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"{result.ErrorMessage}\n");
+                Console.WriteLine($"{result.ErrorMsg}\n");
                 Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
@@ -31,7 +31,7 @@ namespace tsqlsh
 
         private static void PrintHeader(ExecutionResults result)
         {
-            for (int h = 0; h < result.ColumnCount; h++)
+            for (int h = 0; h < result.ColCount; h++)
             {
                 if (h == 0)
                 {
@@ -64,7 +64,7 @@ namespace tsqlsh
 
             for (int r = 1; r < rowCount; r++)
             {
-                for (int c = 0; c < result.ColumnCount; c++)
+                for (int c = 0; c < result.ColCount; c++)
                 {
                     if (c > 0)
                     {

@@ -1,4 +1,6 @@
-﻿using System;
+﻿#pragma warning disable RECS0020
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -10,10 +12,17 @@ namespace tsqlsh
     /// SqlEngine is what connects to and exectutes the statement input in the 
     /// cli.
     /// </summary>
-    internal sealed class SqlEngine : IDisposable
+    internal class SqlEngine : ISqlEngine
     {
         private SqlConnection connection;
         private readonly bool isReadonly;
+
+        private EventHandler<string> dbChanged;
+
+        private void OnDbChanged(string dbName){
+            if (this.dbChanged == null){ return; }
+            this.dbChanged(this, dbName);
+        }
 
         /// <summary>
         /// Default ctor.
@@ -26,11 +35,17 @@ namespace tsqlsh
             this.Connect(cbuilder.ToString());
         }
 
+        public event EventHandler<string> DbChanged
+        {
+            add{this.dbChanged += value;}
+            remove{this.dbChanged -= value;}
+        }
+
         /// <summary>
         /// Connects to the database.
         /// </summary>
         /// <param name="cstr">The connection string.</param>
-        internal void Connect(string cstr)
+        public void Connect(string cstr)
         {
             this.connection = new SqlConnection(cstr);
             if (this.connection.State != ConnectionState.Open)
@@ -44,7 +59,7 @@ namespace tsqlsh
         /// </summary>
         /// <returns>The command.</returns>
         /// <param name="sql">The statement to be exectuted.</param>
-        internal ExecutionResults ExecuteCommand(string sql)
+        public ExecutionResults ExecuteCommand(string sql)
         {
             var cmd = this.connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
@@ -54,9 +69,9 @@ namespace tsqlsh
             {
                 return new ExecutionResults()
                 {
-                    ErrorMessage = "This session can only execute SELECT queries." + 
-                                   "  Start another session using the '-rw' flag" + 
-                                   " if DDL statements are to be executed."
+                    ErrorMsg = "This session can only execute SELECT queries. " + 
+                               "Start another session using the '-rw' flag " + 
+                               "if DDL statements are to be executed."
                 };
             }
 
@@ -93,7 +108,7 @@ namespace tsqlsh
             }
             catch (Exception ex)
             {
-                results.ErrorMessage = ex.Message;
+                results.ErrorMsg = ex.Message;
             }
 
             return results;
@@ -106,15 +121,24 @@ namespace tsqlsh
         /// <param name="cmd">The IDbCommand that will execute the statement.</param>
         internal ExecutionResults ExecuteNonQuery(IDbCommand cmd)
         {
+            bool hasUsingStmt = cmd.CommandText.Substring(0, 3).ToUpper() == "USE";
+
+
+
             var results = new ExecutionResults() { CommandText = cmd.CommandText };
 
             try
             {
                 cmd.ExecuteNonQuery();
+                if (hasUsingStmt)
+                {
+                    var dbName = cmd.CommandText.Substring(4).Replace(";", "");
+                    this.OnDbChanged(dbName);
+                }
             }
             catch (Exception ex)
             {
-                results.ErrorMessage = ex.Message;
+                results.ErrorMsg = ex.Message;
             }
 
             return results;
@@ -129,7 +153,7 @@ namespace tsqlsh
         {
             var rawData = new ExecutionResults()
             {
-                ColumnCount = reader.FieldCount,
+                ColCount = reader.FieldCount,
                 Rows = new List<IList<string>>()
             };
 
@@ -141,7 +165,7 @@ namespace tsqlsh
                 }
 
                 var header = new List<string>();
-                for (int i = 0; i < rawData.ColumnCount; i++)
+                for (int i = 0; i < rawData.ColCount; i++)
                 {
                     header.Add(reader.GetName(i));
                 }
@@ -152,7 +176,7 @@ namespace tsqlsh
                 {
                     var row = new List<string>();
 
-                    for (int i = 0; i < rawData.ColumnCount; i++)
+                    for (int i = 0; i < rawData.ColCount; i++)
                     {
                         var value = reader[i];
                         row.Add(value != null ? value.ToString() : "<null>");
@@ -175,7 +199,7 @@ namespace tsqlsh
 
             var formattedResult = new ExecutionResults()
             {
-                ColumnCount = rawResults.ColumnCount,
+                ColCount = rawResults.ColCount,
                 Rows = new List<IList<string>>(),
                 Padding = rawResults.Padding
             };
@@ -185,7 +209,7 @@ namespace tsqlsh
                 var rawRow = rawResults.Rows[r];
                 var newRow = new List<string>();
 
-                for (var f = 0; f < rawResults.ColumnCount; f++)
+                for (var f = 0; f < rawResults.ColCount; f++)
                 {
                     newRow.Add(rawRow[f].PadRight(rawResults.Padding[f], ' '));
                 }
@@ -199,7 +223,7 @@ namespace tsqlsh
             {
                 rawResults.Padding = new Dictionary<int, int>();
 
-                for (int i = 0; i < rawResults.ColumnCount; i++)
+                for (int i = 0; i < rawResults.ColCount; i++)
                 {
                     var maxFieldSize = rawResults.Rows
                         .Select(r => r[i] ?? "")

@@ -18,7 +18,7 @@ namespace tsqlsh
         /// Gets or sets the number of columns returned in the resultset.
         /// </summary>
         /// <value>The column count.</value>
-        internal int ColumnCount { get; set; }
+        internal int ColCount { get; set; }
 
         /// <summary>
         /// Gets the number of rows that were returned.
@@ -44,7 +44,7 @@ namespace tsqlsh
         /// command.
         /// </summary>
         /// <value>The error message.</value>
-        internal string ErrorMessage { get; set; }
+        internal string ErrorMsg { get; set; }
 
         // Indicates if the execution produced any resultset.
         internal bool HasRows {

@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsqlsh", "tsqlsh.csproj", "{59183D54-F22E-4222-A71A-084076589EE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsqlsh", "src\tsqlsh\tsqlsh.csproj", "{59183D54-F22E-4222-A71A-084076589EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsqlsh.unittests", "src\tsqlsh.unittests\tsqlsh.unittests.csproj", "{0A7FC42A-9DA5-4939-90ED-38123001C92B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{59183D54-F22E-4222-A71A-084076589EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59183D54-F22E-4222-A71A-084076589EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59183D54-F22E-4222-A71A-084076589EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7FC42A-9DA5-4939-90ED-38123001C92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7FC42A-9DA5-4939-90ED-38123001C92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7FC42A-9DA5-4939-90ED-38123001C92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7FC42A-9DA5-4939-90ED-38123001C92B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0

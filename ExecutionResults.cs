@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace tsqlsh
 {
@@ -44,5 +45,10 @@ namespace tsqlsh
         /// </summary>
         /// <value>The error message.</value>
         internal string ErrorMessage { get; set; }
+
+        // Indicates if the execution produced any resultset.
+        internal bool HasRows {
+            get { return this.Rows != null && this.Rows.Any(); }
+        }
     }
 }

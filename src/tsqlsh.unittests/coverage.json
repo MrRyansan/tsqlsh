@@ -1,0 +1,1919 @@
+{
+  "tsqlsh.dll": {
+    "/Users/doublej/dev/dotnet/tsqlsh/src/tsqlsh/CmdLineArgs.cs": {
+      "tsqlsh.CmdLineArgs": {
+        "System.Void tsqlsh.CmdLineArgs::init(System.String[])": {
+          "Lines": {
+            "29": 5,
+            "30": 9,
+            "31": 11,
+            "32": 13,
+            "33": 15,
+            "35": 5,
+            "36": 5,
+            "37": 5,
+            "38": 16,
+            "39": 16,
+            "41": 5,
+            "42": 3,
+            "43": 3,
+            "46": 2,
+            "47": 2,
+            "49": 2,
+            "50": 2,
+            "52": 11,
+            "53": 2,
+            "54": 2,
+            "56": 2,
+            "57": 5
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 8,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 31,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 46,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 32,
+              "Offset": 84,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 84,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            },
+            {
+              "Line": 33,
+              "Offset": 122,
+              "EndOffset": 124,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 33,
+              "Offset": 122,
+              "EndOffset": 147,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            },
+            {
+              "Line": 35,
+              "Offset": 155,
+              "EndOffset": 157,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 5
+            },
+            {
+              "Line": 35,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 4
+            },
+            {
+              "Line": 35,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 172,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 4
+            },
+            {
+              "Line": 35,
+              "Offset": 155,
+              "EndOffset": 204,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 163,
+              "EndOffset": 204,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 221,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 3
+            },
+            {
+              "Line": 41,
+              "Offset": 221,
+              "EndOffset": 229,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 2
+            },
+            {
+              "Line": 46,
+              "Offset": 231,
+              "EndOffset": 233,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 231,
+              "EndOffset": 236,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 2
+            },
+            {
+              "Line": 47,
+              "Offset": 260,
+              "EndOffset": 262,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 260,
+              "EndOffset": 265,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 2
+            },
+            {
+              "Line": 49,
+              "Offset": 289,
+              "EndOffset": 291,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 289,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 2
+            },
+            {
+              "Line": 50,
+              "Offset": 318,
+              "EndOffset": 320,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 318,
+              "EndOffset": 323,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 353,
+              "EndOffset": 355,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 353,
+              "EndOffset": 378,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 383,
+              "EndOffset": 385,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 383,
+              "EndOffset": 388,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.String tsqlsh.CmdLineArgs::get_Database()": {
+          "Lines": {
+            "63": 7
+          },
+          "Branches": []
+        },
+        "System.String tsqlsh.CmdLineArgs::get_Server()": {
+          "Lines": {
+            "69": 7
+          },
+          "Branches": []
+        },
+        "System.String tsqlsh.CmdLineArgs::get_User()": {
+          "Lines": {
+            "75": 11
+          },
+          "Branches": []
+        },
+        "System.String tsqlsh.CmdLineArgs::get_Password()": {
+          "Lines": {
+            "81": 7
+          },
+          "Branches": []
+        },
+        "System.Boolean tsqlsh.CmdLineArgs::get_ShowHelp()": {
+          "Lines": {
+            "90": 13
+          },
+          "Branches": []
+        },
+        "System.Data.SqlClient.ApplicationIntent tsqlsh.CmdLineArgs::get_Intent()": {
+          "Lines": {
+            "100": 11
+          },
+          "Branches": []
+        },
+        "System.Boolean tsqlsh.CmdLineArgs::get_HasErrors()": {
+          "Lines": {
+            "106": 4
+          },
+          "Branches": []
+        },
+        "System.Data.SqlClient.SqlConnectionStringBuilder tsqlsh.CmdLineArgs::get_SqlConnection()": {
+          "Lines": {
+            "113": 14
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> tsqlsh.CmdLineArgs::get_Errors()": {
+          "Lines": {
+            "119": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.CmdLineArgs::validate()": {
+          "Lines": {
+            "125": 2,
+            "126": 2,
+            "128": 2,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "133": 2,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "138": 2,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "143": 2,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "148": 2,
+            "149": 0,
+            "150": 0,
+            "152": 2,
+            "154": 2,
+            "155": 2,
+            "156": 2,
+            "157": 2,
+            "158": 2,
+            "160": 2,
+            "161": 2
+          },
+          "Branches": [
+            {
+              "Line": 128,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 20,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 133,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 54,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 138,
+              "Offset": 86,
+              "EndOffset": 88,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 138,
+              "Offset": 86,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 104,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 143,
+              "Offset": 136,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 143,
+              "Offset": 136,
+              "EndOffset": 154,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 143,
+              "Offset": 159,
+              "EndOffset": 161,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 143,
+              "Offset": 159,
+              "EndOffset": 180,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 2
+            },
+            {
+              "Line": 148,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 148,
+              "Offset": 190,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 2
+            },
+            {
+              "Line": 156,
+              "Offset": 259,
+              "EndOffset": 261,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 156,
+              "Offset": 259,
+              "EndOffset": 267,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 2
+            },
+            {
+              "Line": 157,
+              "Offset": 286,
+              "EndOffset": 288,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 286,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void tsqlsh.CmdLineArgs::.ctor(System.String[])": {
+          "Lines": {
+            "19": 5,
+            "20": 5,
+            "21": 5,
+            "22": 5
+          },
+          "Branches": []
+        }
+      },
+      "tsqlsh.CmdLineArgs/<>c": {
+        "System.Boolean tsqlsh.CmdLineArgs/<>c::<init>b__1_4(System.String)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 9
+            },
+            {
+              "Line": 38,
+              "Offset": 11,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "/Users/doublej/dev/dotnet/tsqlsh/src/tsqlsh/Command.cs": {
+      "tsqlsh.Command": {
+        "System.Void tsqlsh.Command::SetDbName(System.String)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String tsqlsh.Command::Build()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "38": 0,
+            "40": 0,
+            "42": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 77,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 90,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 103,
+              "EndOffset": 112,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 103,
+              "EndOffset": 123,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 129,
+              "EndOffset": 131,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 129,
+              "EndOffset": 156,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 161,
+              "EndOffset": 163,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 161,
+              "EndOffset": 166,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/doublej/dev/dotnet/tsqlsh/src/tsqlsh/ExecutionResults.cs": {
+      "tsqlsh.ExecutionResults": {
+        "System.String tsqlsh.ExecutionResults::get_CommandText()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 tsqlsh.ExecutionResults::get_ColCount()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 tsqlsh.ExecutionResults::get_RowCount()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<System.String>> tsqlsh.ExecutionResults::get_Rows()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IDictionary`2<System.Int32,System.Int32> tsqlsh.ExecutionResults::get_Padding()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String tsqlsh.ExecutionResults::get_ErrorMsg()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean tsqlsh.ExecutionResults::get_HasRows()": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/doublej/dev/dotnet/tsqlsh/src/tsqlsh/Program.cs": {
+      "tsqlsh.Program": {
+        "System.Void tsqlsh.Program::Main(System.String[])": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "tsqlsh.ISqlEngine tsqlsh.Program::get_engine()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "tsqlsh.Command tsqlsh.Program::get_cmdBuilder()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.Program::CtrlCHandlerHandler(System.Object,System.ConsoleCancelEventArgs)": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.Program::Run()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "82": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0
+          },
+          "Branches": [
+            {
+              "Line": 64,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 12,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 50,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 195,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 204,
+              "EndOffset": 206,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 218,
+              "EndOffset": 220,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 191,
+              "EndOffset": 226,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 218,
+              "EndOffset": 260,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 222,
+              "EndOffset": 270,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 204,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 222,
+              "EndOffset": 295,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.Program::.ctor(System.String[])": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 51,
+              "EndOffset": 62,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 75,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/doublej/dev/dotnet/tsqlsh/src/tsqlsh/SqlEngine.cs": {
+      "tsqlsh.SqlEngine": {
+        "System.Void tsqlsh.SqlEngine::OnDbChanged(System.String)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 12,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.SqlEngine::add_DbChanged(System.EventHandler`1<System.String>)": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.SqlEngine::remove_DbChanged(System.EventHandler`1<System.String>)": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.SqlEngine::Connect(System.String)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 32,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "tsqlsh.ExecutionResults tsqlsh.SqlEngine::ExecuteCommand(System.String)": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "92": 0
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 49,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 62,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 106,
+              "EndOffset": 117,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "tsqlsh.ExecutionResults tsqlsh.SqlEngine::ExecuteReader(System.Data.IDbCommand)": {
+          "Lines": {
+            "100": 0,
+            "101": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0
+          },
+          "Branches": []
+        },
+        "tsqlsh.ExecutionResults tsqlsh.SqlEngine::ExecuteNonQuery(System.Data.IDbCommand)": {
+          "Lines": {
+            "123": 0,
+            "124": 0,
+            "128": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "144": 0,
+            "145": 0
+          },
+          "Branches": [
+            {
+              "Line": 133,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 60,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "tsqlsh.ExecutionResults tsqlsh.SqlEngine::ReadRawResults(System.Data.SqlClient.SqlDataReader)": {
+          "Lines": {
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "173": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "193": 0,
+            "194": 0
+          },
+          "Branches": [
+            {
+              "Line": 162,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 162,
+              "Offset": 44,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 168,
+              "Offset": 102,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 168,
+              "Offset": 102,
+              "EndOffset": 104,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 175,
+              "Offset": 217,
+              "EndOffset": 119,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 179,
+              "Offset": 190,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 182,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 182,
+              "Offset": 147,
+              "EndOffset": 156,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 179,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 175,
+              "Offset": 217,
+              "EndOffset": 219,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        },
+        "tsqlsh.ExecutionResults tsqlsh.SqlEngine::FormatQueryResult(tsqlsh.ExecutionResults)": {
+          "Lines": {
+            "197": 0,
+            "198": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "235": 0
+          },
+          "Branches": [
+            {
+              "Line": 207,
+              "Offset": 218,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 212,
+              "Offset": 174,
+              "EndOffset": 106,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 212,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 207,
+              "Offset": 218,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.SqlEngine::Dispose(System.Boolean)": {
+          "Lines": {
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0
+          },
+          "Branches": [
+            {
+              "Line": 242,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 242,
+              "Offset": 7,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 242,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 242,
+              "Offset": 18,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 247,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 247,
+              "Offset": 39,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.SqlEngine::Finalize()": {
+          "Lines": {
+            "258": 0,
+            "259": 0,
+            "260": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.SqlEngine::Dispose()": {
+          "Lines": {
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean tsqlsh.SqlEngine::<ExecuteCommand>g__requiresWrite|9_0(tsqlsh.SqlEngine/<>c__DisplayClass9_0&)": {
+          "Lines": {
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0
+          },
+          "Branches": [
+            {
+              "Line": 85,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 24,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 37,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 50,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 63,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 76,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.SqlEngine::<FormatQueryResult>g__calculatePadding|13_0(tsqlsh.SqlEngine/<>c__DisplayClass13_0&)": {
+          "Lines": {
+            "223": 0,
+            "224": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0
+          },
+          "Branches": [
+            {
+              "Line": 226,
+              "Offset": 163,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 228,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 228,
+              "Offset": 68,
+              "EndOffset": 93,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 226,
+              "Offset": 163,
+              "EndOffset": 168,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.SqlEngine::.ctor(System.Data.SqlClient.SqlConnectionStringBuilder)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "238": 0
+          },
+          "Branches": []
+        }
+      },
+      "tsqlsh.SqlEngine/<>c__DisplayClass13_1": {
+        "System.String tsqlsh.SqlEngine/<>c__DisplayClass13_1::<FormatQueryResult>b__1(System.Collections.Generic.IList`1<System.String>)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 229,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 229,
+              "Offset": 13,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/doublej/dev/dotnet/tsqlsh/src/tsqlsh/Terminal.cs": {
+      "tsqlsh.Terminal": {
+        "System.Void tsqlsh.Terminal::Print(tsqlsh.ExecutionResults)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 17,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 71,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.Terminal::PrintHeader(tsqlsh.ExecutionResults)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 126,
+              "EndOffset": 5,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 12,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 126,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.Terminal::PrintHorizontalLine(tsqlsh.ExecutionResults)": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.Terminal::PrintRows(tsqlsh.ExecutionResults)": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "77": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 131,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 110,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 31,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 110,
+              "EndOffset": 112,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 131,
+              "EndOffset": 133,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.ConsoleColor tsqlsh.Terminal::GetDataTypeForecolor(System.String)": {
+          "Lines": {
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "105": 0,
+            "106": 0
+          },
+          "Branches": [
+            {
+              "Line": 90,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 11,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 31,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 52,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.Terminal::PrintUsage()": {
+          "Lines": {
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0
+          },
+          "Branches": []
+        },
+        "System.Void tsqlsh.Terminal::PrintConnectionInfo(System.String,System.String,System.String)": {
+          "Lines": {
+            "124": 0,
+            "125": 0,
+            "127": 0,
+            "129": 0,
+            "130": 0,
+            "132": 0,
+            "133": 0,
+            "135": 0,
+            "136": 0,
+            "138": 0,
+            "139": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0
+          },
+          "Branches": [
+            {
+              "Line": 141,
+              "Offset": 115,
+              "EndOffset": 117,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 141,
+              "Offset": 115,
+              "EndOffset": 120,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 139,
+              "EndOffset": 141,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 139,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void tsqlsh.Terminal::PrintErrors(System.String[])": {
+          "Lines": {
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

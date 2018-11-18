@@ -23,10 +23,7 @@ namespace tsqlsh
                 return;
             }
 
-            if (!result.Rows.Any())
-            {
-                return;
-            }
+            if (!result.HasRows){return;}
 
             PrintHeader(result);
             PrintRows(result);

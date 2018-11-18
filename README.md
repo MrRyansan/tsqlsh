@@ -2,6 +2,10 @@
 
 A cqlsh-inspired cli for MSSQL on a Mac (and Linux in the future)
 
+---
+## Update 2018-11-18
+I've created a feature branch where I'm working on unit testing.  This started out as a RnD project and unit testing was not a big concern.  Now I'v decided to use it as an opportunity to get familiar with Xunit.  I still have a lot of unit tests to write; probably some more refactoring to make it easier to test closer to the data access boundary.  My general rule of thumb is that if it can't be unit tested, you may need to revisit the design or imo=plementation.  There are exceptions to the this rule of course; each situation has to be evaluated in it's own unique context.
+
 ## Reasons Why
 
 ### Stay On Top of .Net Core
